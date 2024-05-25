@@ -1,0 +1,73 @@
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 15px;
+  margin-top: 0px;
+}
+
+.navbar a:hover {
+  color: rgb(178, 182, 195);
+  transition: color 0.3s ease;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+  }
+  
+
+  input[type=submit] {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #3709a255;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 600px;
+    position:center;
+    margin-left:420px;
+    margin-top:0px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  footer {
+    background-color:#0056b3;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top:15px;
+  }
+  
+  footer p {
+    margin: 0;
+  }

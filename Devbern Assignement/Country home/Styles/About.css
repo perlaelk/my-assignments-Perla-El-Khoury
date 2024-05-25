@@ -1,0 +1,94 @@
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 15px;
+  margin-top: 0px;
+}
+
+.navbar a:hover {
+  color: rgb(178, 182, 195);
+  transition: color 0.3s ease;
+}
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+/* Main content styles */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Child selector examples */
+main > section > p {
+  line-height: 1.6;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Transportation section styles */
+#transportation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#transportation > div {
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: -80px;
+}
+
+footer p {
+  margin: 0;
+}
